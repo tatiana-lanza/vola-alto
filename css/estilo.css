@@ -1,0 +1,229 @@
+/*Selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Estilos generales del html*/
+
+html{
+    background-color: #e7e3de;
+    color: #706C61;
+    font-size: large;
+    font-family: font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo-Whatsapp img {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*Estilos Header*/
+
+.logo-vola{
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    flex-grow: 0;
+}
+
+
+.img-inicio {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.titulo-principal {
+    color: #BC69AA;
+    font: weight 300px;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #CA6680;
+    font-family:cursive;
+}
+
+
+/*Estilos Main*/
+
+h2 {
+    text-decoration: underline;
+    color: #CA6680;
+    font-size: 30px;
+}
+
+
+.subtitulos {
+    color: #f0e8df;
+    background-color: #CA6680;
+    text-align: center;
+    font-weight: 800;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+
+/*Estilos Ambientaciones*/
+
+.titulo-ambientaciones {
+    margin: 50px;
+}
+
+.img-ambientaciones {
+    width: 50%;
+    height: 50%;
+}
+
+/*Estilos Quienes Somos*/
+
+.titulo-quienes-somos {
+    margin: 50px;
+}
+
+.img-quienes-somos1 {
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+    border: 5px double #bd3f57;
+}
+
+
+.img-quienes-somos2 {
+    margin: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    border: 5px double #bd3f57;
+}
+
+.flex-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+/*Estilos Galeria*/
+
+.titulo-galeria {
+    margin: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-galeria {
+    width: 400px;
+    height: 400px;
+}
+
+
+/*Estilos Contaco*/
+
+.titulo-contacto {
+    margin: 50px;
+}
+
+.titulo-formulario {
+    margin: 50px;
+}
+
+
+
+
+/*Media query Tablet*/
+@media screen and (max-width: 1024px){
+
+}
+
+/*Media query Mobile*/
+@media screen and (max-width: 768px){
+
+}
+
+
+/*Estilos Footer*/
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10% 10%;
+    background-color: #94938e;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.img-instagram{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40px;
+}
+
+.img-whatsapp{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 140px;
+    bottom: 50px;
+}
+
+.img-mail{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 205px;
+    bottom: 55px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: small;
+    padding: 10px;
+    text-decoration: underline;
+}
