@@ -5,14 +5,37 @@
     box-sizing: border-box;
 }
 
+/*Estilos generales del body*/
 
+body {
+    background-color: #735B69;
+}
+
+/*Estilos Menu*/
+
+.barra-menu{
+    background-color: #FEE19F;
+}
+
+.navbar-nav{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.boton-menu{
+    background-color:#735B69;
+    border:solid;
+    border-color:#030923;
+}
 /*Estilos generales del html*/
 
-html{
-    background-color: #e7e3de;
-    color: #706C61;
+html {
+
+    color: dabeca;
     font-size: large;
-    font-family: font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -25,12 +48,12 @@ html{
 
 /*Estilos Header*/
 
-.logo-vola{
-    width: 150px;
-    height: 150px;
+.logo-vola {
+    width: 130px;
+    height: 130px;
 }
 
-.menu{
+.menu {
     flex-grow: 0;
 }
 
@@ -53,7 +76,7 @@ html{
 h1 {
     text-align: center;
     color: #CA6680;
-    font-family:cursive;
+    font-family: cursive;
 }
 
 
@@ -155,14 +178,10 @@ h2 {
 
 
 /*Media query Tablet*/
-@media screen and (max-width: 1024px){
-
-}
+@media screen and (max-width: 1024px) {}
 
 /*Media query Mobile*/
-@media screen and (max-width: 768px){
-
-}
+@media screen and (max-width: 768px) {}
 
 
 /*Estilos Footer*/
@@ -177,7 +196,7 @@ h2 {
     padding-left: 10px;
 }
 
-.copyright{
+.copyright {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -186,7 +205,7 @@ h2 {
     top: 50px;
 }
 
-.img-instagram{
+.img-instagram {
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -195,7 +214,7 @@ h2 {
     left: 40px;
 }
 
-.img-whatsapp{
+.img-whatsapp {
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -205,7 +224,7 @@ h2 {
     bottom: 50px;
 }
 
-.img-mail{
+.img-mail {
     height: 30px;
     display: flex;
     flex-direction: row;
