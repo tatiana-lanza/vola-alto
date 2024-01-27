@@ -175,13 +175,22 @@ margin-top: 1rem;
 /*Estilos Footer*/
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 10% 10%;
-    background-color: #94938e;
+    background-color: #4e4448;
     color: white;
-    padding-top: 20px;
-    padding-left: 10px;
+    margin-top: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-footer{
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size:medium;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .copyright {
@@ -189,8 +198,8 @@ margin-top: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 150px;
-    top: 50px;
+    margin-top: 50px;
+    margin-right: 15px;
 }
 
 .img-instagram {
@@ -199,38 +208,29 @@ margin-top: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 40px;
+    right: 220px;
+    top: 30px;
 }
 
 .img-whatsapp {
-    height: 30px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 140px;
-    bottom: 50px;
+    right: 230px;
+    top: 30px;
 }
 
 .img-mail {
-    height: 30px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 205px;
-    bottom: 55px;
+    right: 175px;
+    bottom: 10px;
 }
 
 
-.copyright {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
-h3 {
-    font-size: small;
-    padding: 10px;
-    text-decoration: underline;
-}
