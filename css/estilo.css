@@ -60,15 +60,15 @@ body {
     font-family: "Akaya Kanadaka", system-ui;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
 
 .grid-galeria{
 display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, 400px);
-gap: 1rem;
-margin-top: 1rem;
+grid-template-columns: 1fr;
+gap: 2rem;
+margin: 1rem 
 }
 
 
@@ -83,16 +83,50 @@ margin-top: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
-    position: relative;
-    left: 200px;
-    top: 8px;
+    font-size:medium;
+    color: #FCDDF2;
+}
+
+em strong{
+    text-decoration: underline;
 }
 
 /*Estilos Ambientaciones*/
 
 .titulo-ambientaciones {
-    margin: 50px;
+    margin-top: 15px;
+    color: #FCDDF2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.contenedor-ambientaciones{
+    color: #FCDDF2;
+    margin-top: 20px;
+}
+
+.parrafo-ambientaciones{
+    color: #FCDDF2;
+}
+
+.incluye{
+    color: #FCDDF2;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.lista-incluye{
+    color: #FCDDF2;
+
 }
 
 .img-ambientaciones {
@@ -103,7 +137,16 @@ margin-top: 1rem;
 /*Estilos Quienes Somos*/
 
 .titulo-quienes-somos {
-    margin: 50px;
+    margin-top: 15px;
+    color: #FCDDF2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .img-quienes-somos1 {
@@ -134,7 +177,16 @@ margin-top: 1rem;
 /*Estilos Galeria*/
 
 .titulo-galeria {
-    margin: 50px;
+    margin-top: 15px;
+    color: #FCDDF2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .galeria {
@@ -155,7 +207,16 @@ margin-top: 1rem;
 /*Estilos Contaco*/
 
 .titulo-contacto {
-    margin: 50px;
+    margin-top: 15px;
+    color: #FCDDF2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .titulo-formulario {
@@ -163,43 +224,26 @@ margin-top: 1rem;
 }
 
 
-
-
-/*Media query Tablet*/
-@media screen and (max-width: 1024px) {}
-
-/*Media query Mobile*/
-@media screen and (max-width: 768px) {}
-
-
 /*Estilos Footer*/
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 10% 10%;
     background-color: #94938e;
     color: white;
-    padding-top: 20px;
-    padding-left: 10px;
-}
-
-.copyright {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
-    left: 150px;
-    top: 50px;
+    padding: 1rem;
+    height: 180px;
 }
 
 .img-instagram {
-    height: 40px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 40px;
+    left:40px;
+    bottom: 40px;
 }
 
 .img-whatsapp {
@@ -208,8 +252,8 @@ margin-top: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 140px;
-    bottom: 50px;
+    left: 125px;
+    bottom: 155px;
 }
 
 .img-mail {
@@ -218,19 +262,37 @@ margin-top: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 205px;
-    bottom: 55px;
+    left: 185px;
+    bottom: 140px;
 }
 
 
-.copyright {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+
+/*Media queries*/
+
+/*Mobile 320px y 768px*/
+@media screen and (min-width: 768px){
+
 }
 
-h3 {
-    font-size: small;
-    padding: 10px;
-    text-decoration: underline;
+/*Tablet 768px y 1024px*/
+@media screen and (min-width: 1024px){
+    
 }
+
+/*Desktop 1024px y 1200px*/
+@media screen and (min-width: 1024px){
+    .grid-galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 400px);
+        gap: 1rem;
+        margin-top: 1rem;
+        }
+        .parrafo-main{
+            font-size: x-large;
+            position: relative;
+            left: 200px;
+            top: 8px;
+        }
+}
+
