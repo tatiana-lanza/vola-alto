@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="./../css/estilo.css">
 </head>
 
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg barra-menu">
@@ -58,29 +57,37 @@
         <h1 class="titulo-contacto">
             CONTACTO
         </h1>
-        <section>
-            <div>
-                <p>
-                    Dejanos tu consulta para que podamos asesorarte. Indica tipo de evento (social o corporativo),
-                    fecha, localidad y todo lo que quieras contarnos!
-                </p>
-            </div>
-        </section>
-        <section>
-            <h2 class="titulo-formulario">
-                Formulario
-            </h2>
-            <div>
-                <form action="form.php" method="post"></form>
-                <label for="name">Nombre y Apellido</label>
+        <div class="parrafo-contacto">
+            <p>
+                Dejanos tu consulta para que podamos asesorarte. Indica tipo de evento (social o corporativo),
+                fecha, localidad y todo lo que quieras contarnos!
+            </p>
+        </div>
+        <h2 class="titulo-formulario">
+            Formulario
+        </h2>
+        <section class="form-section">
+            <form action="form.php" method="post"></form>
+            <div class="form-contacto">
                 <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
-                <label for="mail">Mail</label>
-                <input type="text" name="mail" id="mail" placeholder="mail">
-                <label for="phone">Tel.</label>
-                <input type="tel" placeholder="telefono">
-                <label for="text">Mensaje</label>
-                <textarea name="text" id="text" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <label for="name"></label>
+            </div>
+            <div class="form-contacto">   
+                <input type="mail" name="mail" id="mail" placeholder="E-mail">
+                <label for="mail"></label>
+            </div>
+            <div class="form-contacto">              
+                <input type="tel" placeholder="Telefono">
+                <label for="phone"></label>
+            </div>
+            <div class="form-contacto">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Escribe aqui tu Mensaje"></textarea>
+                <label for="text"></label>
+            </div>
+            <div class="form-contacto">
                 <input type="checkbox">
+            </div>
+            <div class="form-contacto">
                 <input type="submit" value="Enviar">
             </div>
         </section>
@@ -101,7 +108,8 @@
                     <p>
                         Redes
                     </p>
-                    <a href="https://instagram.com/vola_alto_deco?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr" target="blank">
+                    <a href="https://instagram.com/vola_alto_deco?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr"
+                        target="blank">
                         <img class="img-instagram" src="../imagenes/logo-instagram-vector.png" alt="Logo instagram">
                     </a>
                     <img class="img-whatsapp" src="../imagenes/logo-whatsapp-vector.png" alt="Logo Whatsapp">
@@ -112,10 +120,10 @@
                 <img src="../imagenes/logo-whatsapp.png" alt="logo-Whatsapp">
             </div>
         </footer>
-    <!--Script Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        <!--Script Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
