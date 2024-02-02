@@ -6,7 +6,7 @@
 }
 
 /*Estilo general html*/
-html{
+html {
     font-family: "ABeeZee", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -15,7 +15,7 @@ html{
 /*Estilos generales del body*/
 body {
     background-color: #735B69;
-    
+
 }
 
 /*Estilos Menu NavBar*/
@@ -38,7 +38,7 @@ body {
 /*Estilos Main*/
 
 .logo-Whatsapp img {
-    width:50px;
+    width: 50px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -48,7 +48,6 @@ body {
     width: 130px;
     height: 130px;
 }
-
 
 .titulo-principal {
     margin-top: 15px;
@@ -63,29 +62,29 @@ body {
     text-align: center;
 }
 
-.grid-img-index{
-display: grid;
-grid-template-columns: 1fr;
-gap: 2rem;
-margin: 1rem 
+.grid-img-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 1rem
 }
 
-.grid-img-index div img{
+.grid-img-index div img {
     width: 100%;
     height: 100%;
 }
 
-.parrafo-main{
+.parrafo-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size:medium;
+    font-size: medium;
     color: #FCDDF2;
 }
 
-em strong{
+em strong {
     text-decoration: underline;
 }
 
@@ -104,7 +103,7 @@ em strong{
     text-align: center;
 }
 
-.contenedor-ambientaciones{
+.contenedor-ambientaciones {
     color: #FCDDF2;
     margin-top: 20px;
     display: flex;
@@ -112,13 +111,13 @@ em strong{
     flex-wrap: wrap;
 }
 
-.parrafo-ambientaciones{
+.parrafo-ambientaciones {
     margin: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.incluye{
+.incluye {
     color: #FCDDF2;
     font-family: "Akaya Kanadaka", system-ui;
     font-weight: 400;
@@ -132,7 +131,7 @@ em strong{
     padding: 20px;
 }
 
-.lista-incluye{
+.lista-incluye {
     color: #FCDDF2;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -158,30 +157,43 @@ em strong{
     text-align: center;
 }
 
+.flex-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.flex-img div img {
+    width: 300px;
+    height: 300px;
+
+}
+
 .img-quienes-somos1 {
-    width: 600px;
-    height: 500px;
-    margin: 20px;
-    border: 5px double #bd3f57;
+    border: 5px outset #f7bff298;
 }
 
 
 .img-quienes-somos2 {
-    margin: 30px;
-    width: 500px;
-    height: 500px;
     border-radius: 300px;
-    border: 5px double #bd3f57;
+    border: 5px inset #f7bff298;
 }
 
-.flex-img {
+
+.parrafo-quienes-somos {
+    color: #FCDDF2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    text-align: justify;
+    padding: 20px;
 }
 
-
+.parrafo-quienes-somos p strong {
+    text-decoration: underline;
+    font-style: italic;
+}
 
 /*Estilos Galeria*/
 
@@ -207,7 +219,7 @@ em strong{
     gap: 1rem;
 }
 
-.galeria div img{
+.galeria div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -254,7 +266,7 @@ em strong{
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left:40px;
+    left: 40px;
     bottom: 40px;
 }
 
@@ -283,63 +295,100 @@ em strong{
 /*Media queries*/
 
 /*Mobile 320px y 768px*/
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {}
 
-}
 
-    
 /*Tablet 768px y 1024px*/
 
-    @media screen and (min-width: 768px){
-        .titulo-principal {
-            padding: 20px;
-            font-size: xx-large;
-        }
-        .index-galeria{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-        }
-        .parrafo-main{
-            padding: 20px;
-            background-color: #fc4ac156;
-            margin: 20px 10px 10px 20px;
-        }
-        .contenedor-ambientaciones{
+@media screen and (min-width: 768px) {
+
+    /*Home*/
+    .titulo-principal {
+        padding: 20px;
+        font-size: xx-large;
+    }
+
+    .index-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parrafo-main {
+        padding: 20px;
+        background-color: #fc4ac156;
+        margin: 20px 10px 10px 20px;
+    }
+
+    /*Ambientaciones*/
+    .contenedor-ambientaciones {
         font-size: large;
         padding: 20px;
-        }
-        .lista-incluye{
-            margin-left: 30px;
-            padding: 20px;
-            font-size: large;
-        }
-        .galeria {
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(3, 200px);
-            grid-template-areas: 
+    }
+
+    .lista-incluye {
+        margin-left: 30px;
+        padding: 20px;
+        font-size: large;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas:
             "img1 img2"
             "img3 img4"
             "img3 img5";
-            }
-            .img-3{
-                grid-area: img3;
-            }
-        }
-        
+    }
+
+    .img-3 {
+        grid-area: img3;
+    }
+
+    /*Quienes Somos*/
+    .flex-img {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .flex-img div img {
+        width: 350px;
+        height: 350px;
+    }
+
+    /*Contacto*/
+}
+
 
 /*Desktop 1024px y 1200px*/
-@media screen and (min-width: 1024px){
-    .grid-galeria{
+@media screen and (min-width: 1024px) {
+    /*Home*/
+    .grid-img-index {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 400px);
         gap: 1rem;
         margin-top: 1rem;
-        }
-        .parrafo-main{
-            font-size: x-large;
-            position: relative;
-            left: 200px;
-            top: 8px;
-        }
+    }
+    .parrafo-main {
+        font-size: x-large;
+        position: relative;
+        left: 200px;
+        top: 8px;
+    }
+    /*Ambientaciones*/
+    /*Quienes Somos*/
+    .parrafo-quienes-somos {
+        font-size: large;
+        text-align: center;
+        padding: 30px;
+    }
+    .flex-img {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 6rem;
+        margin-bottom: 2rem;
+    }
+    .flex-img div img{
+        width: 400px;
+        height: 400px;
+    }
+    /*Contacto*/
 }
-
