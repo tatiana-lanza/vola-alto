@@ -35,7 +35,7 @@ body {
     border-color: #030923;
 }
 
-/*Estilos Main*/
+/*Estilos Home*/
 
 .logo-Whatsapp img {
     width: 50px;
@@ -78,8 +78,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: medium;
     color: #FCDDF2;
 }
@@ -174,12 +173,10 @@ em strong {
     border: 5px outset #f7bff298;
 }
 
-
 .img-quienes-somos2 {
     border-radius: 300px;
     border: 5px inset #f7bff298;
 }
-
 
 .parrafo-quienes-somos {
     color: #FCDDF2;
@@ -225,9 +222,6 @@ em strong {
     object-fit: cover;
 }
 
-
-
-
 /*Estilos Contaco*/
 
 .titulo-contacto {
@@ -243,7 +237,7 @@ em strong {
     text-align: center;
 }
 
-.parrafo-contacto{
+.parrafo-contacto {
     color: #FCDDF2;
     display: flex;
     flex-direction: row;
@@ -260,15 +254,14 @@ em strong {
     font-family: "Akaya Kanadaka", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size:xx-large;
+    font-size: xx-large;
     text-decoration: underline;
 }
 
-
-.form-section{
+.form-section {
     width: 30vw;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
@@ -277,12 +270,12 @@ em strong {
     width: 280px;
 }
 
-.form-contacto{
+.form-contacto {
     position: relative;
     margin-bottom: 10px;
 }
 
-.form-contacto input{
+.form-contacto input {
     height: 40px;
     width: 250px;
     border: 2px solid rgba(110, 87, 121, 0.856);
@@ -290,7 +283,6 @@ em strong {
     border-radius: 5px;
     outline: none;
 }
-
 
 /*Estilos Footer*/
 
@@ -334,18 +326,11 @@ em strong {
     bottom: 140px;
 }
 
-
-
 /*Media queries*/
-
 /*Mobile 320px y 768px*/
-@media screen and (min-width: 320px) {
-
-}
-
+@media screen and (min-width: 320px) {}
 
 /*Tablet 768px y 1024px*/
-
 @media screen and (min-width: 768px) {
 
     /*Home*/
@@ -353,25 +338,34 @@ em strong {
         padding: 20px;
         font-size: xx-large;
     }
-    .index-galeria {
+
+    .grid-img-index {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .parrafo-main {
         padding: 20px;
         background-color: #fc4ac156;
-        margin: 20px 10px 10px 20px;
+        margin: 20px;
     }
+
     /*Ambientaciones*/
     .contenedor-ambientaciones {
         font-size: large;
         padding: 20px;
     }
+
+    .parrafo-ambientaciones {
+        text-align: center;
+    }
+
     .lista-incluye {
         margin-left: 30px;
         padding: 20px;
         font-size: large;
     }
+
     .galeria {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 200px);
@@ -380,20 +374,28 @@ em strong {
             "img3 img4"
             "img3 img5";
     }
+
     .img-3 {
         grid-area: img3;
     }
+
     /*Quienes Somos*/
     .flex-img {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
+
     .flex-img div img {
         width: 350px;
         height: 350px;
     }
+
+    .parrafo-quienes-somos {
+        text-align: center;
+    }
+
     /*Contacto*/
-    .parrafo-contacto{
+    .parrafo-contacto {
         position: absolute;
         left: 400px;
         top: 400px;
@@ -402,40 +404,90 @@ em strong {
     }
 }
 
-
 /*Desktop 1024px y 1200px*/
 @media screen and (min-width: 1024px) {
+
     /*Home*/
     .grid-img-index {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 400px);
+        grid-template-rows: repeat(2, 350px);
         gap: 1rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
+
     .parrafo-main {
         font-size: x-large;
         position: relative;
-        left: 200px;
-        top: 8px;
+        left: 550px;
+        bottom: 300px;
+        height: 250px;
+        width: 450px;
     }
+
+    .titulo-principal {
+        font-size: xx-large;
+        padding: 20px;
+        margin: 40px;
+    }
+
     /*Ambientaciones*/
+    .contenedor-ambientaciones {
+        font-size: x-large;
+    }
+
+    .lista-incluye {
+        font-size: x-large;
+    }
+
     /*Quienes Somos*/
     .parrafo-quienes-somos {
-        font-size: large;
+        font-size: x-large;
         text-align: center;
         padding: 30px;
     }
+
     .flex-img {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 6rem;
         margin-bottom: 2rem;
     }
-    .flex-img div img{
+
+    .flex-img div img {
         width: 400px;
         height: 400px;
     }
+
+    /*Galeria*/
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 350px);
+        grid-template-areas:
+            "img1 img5 img2"
+            "img4 img5 img3";
+    }
+
+    .img-5 {
+        grid-area: img5;
+    }
+
     /*Contacto*/
+    .parrafo-contacto {
+        background-color: #fc4ac156;
+        width: 500px;
+        left: 600px;
+        top: 450px;
+    }
 
+    .form-section {
+        width: 400px;
+    }
 
+    .form-contacto input {
+        height: 50px;
+        width: 350px;
+    }
 
+    .form-contacto textarea {
+        width: 350px;
+    }
 }
