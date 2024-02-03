@@ -20,7 +20,7 @@ body {
 
 /*Estilos Menu NavBar*/
 .barra-menu {
-    background-color: #FEE19F;
+    background-color: #fee19fea;
 }
 
 .navbar-nav {
@@ -286,8 +286,8 @@ em strong {
 /*Estilos Footer*/
 
 .footer {
-    background-color: #94938e;
-    color: white;
+    background-color: #ece7caf8;
+    color: rgb(8, 8, 8);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -295,35 +295,38 @@ em strong {
     height: 180px;
 }
 
-.img-instagram {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    left: 40px;
-    bottom: 40px;
+.footer div img{
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
 }
 
-.img-whatsapp {
-    height: 40px;
+.parrafo-footer{
+    color: #030923af;
+    font-weight: 200px;
+    font-size: small;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
-    left: 125px;
-    bottom: 155px;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 
-.img-mail {
-    height: 40px;
+.img-instagram{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    left: 185px;
-    bottom: 140px;
+    max-width: 50px;
+    max-height: 50px;
+    bottom: 10px;
+    left: 20px;
 }
+
+
+
+
+
 
 /*Media queries*/
 /*Mobile 320px y 768px*/
@@ -401,6 +404,26 @@ em strong {
         width: 300px;
         font-size: x-large;
     }
+
+    /*Footer*/
+    .footer div img{
+        margin-left: 360px;
+    }
+    .parrafo-footer{
+        position: absolute;
+        margin-left: 310px;
+        margin-top: 90px;
+    }
+    .img-instagram{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        max-width: 50px;
+        max-height: 50px;
+        top: 20px;
+    }
+    
 }
 
 /*Desktop 1024px y 1200px*/
@@ -417,7 +440,7 @@ em strong {
     .parrafo-main {
         font-size: x-large;
         position: relative;
-        left: 550px;
+        left: 430px;
         bottom: 300px;
         height: 250px;
         width: 450px;
@@ -473,7 +496,7 @@ em strong {
     .parrafo-contacto {
         background-color: #fc4ac156;
         width: 500px;
-        left: 600px;
+        left: 470px;
         top: 450px;
     }
 
@@ -489,4 +512,18 @@ em strong {
     .form-contacto textarea {
         width: 350px;
     }
+
+    /*Footer*/
+        /*Footer*/
+        .footer div img{
+            margin-left: 500px;
+        }
+        .parrafo-footer{
+            font-size:medium;
+            margin-left: 430px;
+        }
+        .img-instagram{
+            margin-right: 550px;
+            margin-top: 10px;
+        }
 }
