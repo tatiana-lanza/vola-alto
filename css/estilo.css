@@ -112,8 +112,7 @@ em strong {
 
 .parrafo-ambientaciones {
     margin: 20px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .incluye {
@@ -183,7 +182,7 @@ em strong {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: justify;
+    text-align: center;
     padding: 20px;
 }
 
