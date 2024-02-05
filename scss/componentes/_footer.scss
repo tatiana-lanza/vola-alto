@@ -1,0 +1,50 @@
+footer{
+    .footer {
+        background-color: #ece7caf8;
+        color: rgb(8, 8, 8);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem;
+        height: 180px;
+        div{
+            img{
+                width: 80px;
+                height: 80px;
+                margin-left: 100px;
+            }
+        }
+        .parrafo-footer{
+            color: #030923af;
+            font-weight: 200px;
+            font-size: small;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 60px;
+            margin-top: 10px;
+        } 
+        div{
+            a{
+                .img-instagram{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    position: relative;
+                    max-width: 50px;
+                    max-height: 50px;
+                    bottom: 10px;
+                    left: 20px;
+                }
+            }
+        }
+        }
+        .logo-Whatsapp{
+        img{
+            width: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    } 
+    } 

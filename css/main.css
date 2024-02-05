@@ -1,0 +1,479 @@
+/*Selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Estilos Globales*/
+html {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+html body {
+  background-color: #735B69;
+}
+html h1 {
+  margin-top: 15px;
+  color: #FCDDF2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+header .barra-menu {
+  background-color: rgba(254, 225, 159, 0.9176470588);
+}
+header div a .logo-vola {
+  width: 130px;
+  height: 130px;
+}
+header div .boton-menu {
+  background-color: #735B69;
+  border: solid;
+  border-color: #030923;
+}
+header div .navbar-nav {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.main-index h1 {
+  margin-top: 15px;
+  color: #FCDDF2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.main-index .grid-img-index {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 1rem;
+}
+.main-index .grid-img-index div img {
+  width: 100%;
+  height: 100%;
+}
+.main-index .grid-img-index div img {
+  width: 100%;
+  height: 100%;
+}
+.main-index .grid-img-index div img {
+  width: 100%;
+  height: 100%;
+}
+.main-index .grid-img-index div img {
+  width: 100%;
+  height: 100%;
+}
+.main-index .parrafo-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: medium;
+  color: #FCDDF2;
+}
+.main-index .parrafo-main p em strong {
+  text-decoration: underline;
+}
+
+.main-ambientaciones .contenedor-ambientaciones {
+  color: #FCDDF2;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main-ambientaciones .contenedor-ambientaciones .parrafo-ambientaciones {
+  margin: 20px;
+  text-align: center;
+}
+.main-ambientaciones .incluye {
+  color: #FCDDF2;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.main-ambientaciones .lista-incluye {
+  color: #FCDDF2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-galeria h1 {
+  padding: 10px;
+}
+.main-galeria .galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: repeat(5, 200px);
+  margin: 1rem 4rem 4rem 4rem;
+  gap: 1rem;
+}
+.main-galeria .galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria .galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria .galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria .galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria .galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-quienes-somos .parrafo-quienes-somos {
+  color: #FCDDF2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+.main-quienes-somos .parrafo-quienes-somos p strong {
+  text-decoration: underline;
+  font-style: italic;
+}
+.main-quienes-somos .flex-img {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  gap: 20px;
+}
+.main-quienes-somos .flex-img div img {
+  width: 300px;
+  height: 300px;
+}
+.main-quienes-somos .flex-img div .img-quienes-somos1 {
+  border: 5px outset rgba(247, 191, 242, 0.5960784314);
+}
+.main-quienes-somos .flex-img div img {
+  width: 300px;
+  height: 300px;
+}
+.main-quienes-somos .flex-img div .img-quienes-somos2 {
+  border-radius: 300px;
+  border: 5px inset rgba(247, 191, 242, 0.5960784314);
+}
+
+.main-contacto .parrafo-contacto {
+  color: #FCDDF2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.main-contacto .titulo-formulario {
+  margin: 20px;
+  color: #FCDDF2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+.main-contacto .form-section {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(191, 217, 247, 0.5960784314);
+  width: 280px;
+}
+.main-contacto .form-section .form-contacto {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main-contacto .form-section .form-contacto input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgba(110, 87, 121, 0.856);
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.main-contacto .form-section .form-contacto {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main-contacto .form-section .form-contacto input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgba(110, 87, 121, 0.856);
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.main-contacto .form-section .form-contacto {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main-contacto .form-section .form-contacto input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgba(110, 87, 121, 0.856);
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.main-contacto .form-section .form-contacto {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main-contacto .form-section .form-contacto input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgba(110, 87, 121, 0.856);
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+footer .footer {
+  background-color: rgba(236, 231, 202, 0.9725490196);
+  color: rgb(8, 8, 8);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+  height: 180px;
+}
+footer .footer div img {
+  width: 80px;
+  height: 80px;
+  margin-left: 100px;
+}
+footer .footer .parrafo-footer {
+  color: rgba(3, 9, 35, 0.6862745098);
+  font-weight: 200px;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+footer .footer div a .img-instagram {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 50px;
+  max-height: 50px;
+  bottom: 10px;
+  left: 20px;
+}
+footer .logo-Whatsapp img {
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/*Tablet 768px y 1024px*/
+@media screen and (min-width: 768px) {
+  /*Home*/
+  .main-index h1 {
+    padding: 20px;
+    font-size: xx-large;
+  }
+  .main-index .grid-img-index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-index .parrafo-main {
+    padding: 20px;
+    background-color: rgba(252, 74, 193, 0.337254902);
+    margin: 20px;
+  }
+  /*Ambientaciones*/
+  .main-ambientaciones .contenedor-ambientaciones {
+    font-size: large;
+    padding: 20px;
+  }
+  .main-ambientaciones .contenedor-ambientaciones .parrafo-ambientaciones {
+    text-align: center;
+  }
+  .main-ambientaciones .lista-incluye {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: large;
+  }
+  /*Galeria*/
+  .main-galeria .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "img1 img2" "img3 img4" "img3 img5";
+  }
+  .main-galeria .galeria .img-3 {
+    grid-area: img3;
+  }
+  /*Quienes Somos*/
+  .main-quienes-somos .parrafo-quienes-somos {
+    text-align: center;
+  }
+  .main-quienes-somos .flex-img {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  .main-quienes-somos .flex-img div img {
+    width: 350px;
+    height: 350px;
+  }
+  /*Contacto*/
+  .main-contacto .parrafo-contacto {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    width: 300px;
+    font-size: x-large;
+  }
+  /*Footer*/
+  footer .footer div img {
+    margin-left: 360px;
+  }
+  footer .parrafo-footer {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 500px;
+  }
+  footer div a .img-instagram {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+    top: 20px;
+  }
+}
+/*Desktop 1024px y 1200px*/
+@media screen and (min-width: 1024px) {
+  /*Home*/
+  .main-index h1 {
+    font-size: xx-large;
+    padding: 20px;
+    margin: 40px;
+  }
+  .main-index .grid-img-index {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 350px);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .main-index .parrafo-main {
+    font-size: x-large;
+    position: relative;
+    left: 430px;
+    bottom: 300px;
+    height: 250px;
+    width: 450px;
+  }
+  /*Ambientaciones*/
+  .main-ambientaciones .contenedor-ambientaciones {
+    font-size: x-large;
+  }
+  .main-ambientaciones .lista-incluye {
+    font-size: x-large;
+  }
+  /*Galeria*/
+  .main-galeria .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 350px);
+    grid-template-areas: "img1 img5 img2" "img4 img5 img3";
+  }
+  .main-galeria .galeria .img-5 {
+    grid-area: img5;
+  }
+  /*Quienes Somos*/
+  .main-quienes-somos .parrafo-quienes-somos {
+    font-size: x-large;
+    text-align: center;
+    padding: 30px;
+  }
+  .main-quienes-somos .flex-img {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+  }
+  .main-quienes-somos .flex-img div img {
+    width: 400px;
+    height: 400px;
+  }
+  /*Contacto*/
+  .main-contacto .parrafo-contacto {
+    background-color: rgba(252, 74, 193, 0.337254902);
+    width: 500px;
+    left: 470px;
+    top: 450px;
+  }
+  .main-contacto .form-section {
+    width: 400px;
+  }
+  .main-contacto .form-section .form-contacto input {
+    height: 50px;
+    width: 350px;
+  }
+  .main-contacto .form-section .form-contacto textarea {
+    width: 350px;
+  }
+  /*Footer*/
+  footer .footer div img {
+    margin-left: 500px;
+  }
+  footer .footer .parrafo-footer {
+    font-size: medium;
+    margin-left: 435px;
+    margin-top: 90px;
+  }
+  footer .footer div a .img-instagram {
+    margin-right: 550px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,55 +1,46 @@
 /*Selector universal*/
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /*Estilo general html*/
-html {
+/* html {
     font-family: "ABeeZee", sans-serif;
     font-weight: 400;
     font-style: italic;
-}
+} */
 
 /*Estilos generales del body*/
-body {
+/* body {
     background-color: #735B69;
+} */
 
-}
-
-/*Estilos Menu NavBar*/
-.barra-menu {
+/*Estilos Header*/
+/* .barra-menu {
     background-color: #fee19fea;
-}
+} */
 
-.navbar-nav {
+/* .logo-vola {
+    width: 130px;
+    height: 130px;
+} */
+
+/* .navbar-nav {
     font-family: "ABeeZee", sans-serif;
     font-weight: 400;
     font-style: italic;
-}
+} */
 
-.boton-menu {
+/* .boton-menu {
     background-color: #735B69;
     border: solid;
     border-color: #030923;
-}
+} */
 
 /*Estilos Home*/
-
-.logo-Whatsapp img {
-    width: 50px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.logo-vola {
-    width: 130px;
-    height: 130px;
-}
-
-.titulo-principal {
+/* h1 {
     margin-top: 15px;
     color: #FCDDF2;
     display: flex;
@@ -60,9 +51,9 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-}
+}  */
 
-.grid-img-index {
+/* .grid-img-index {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -72,9 +63,9 @@ body {
 .grid-img-index div img {
     width: 100%;
     height: 100%;
-}
+} */
 
-.parrafo-main {
+/* .parrafo-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,11 +76,11 @@ body {
 
 em strong {
     text-decoration: underline;
-}
+} */
 
 /*Estilos Ambientaciones*/
 
-.titulo-ambientaciones {
+/* h1{
     margin-top: 15px;
     color: #FCDDF2;
     display: flex;
@@ -100,9 +91,9 @@ em strong {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-}
+} */
 
-.contenedor-ambientaciones {
+/* .contenedor-ambientaciones {
     color: #FCDDF2;
     margin-top: 20px;
     display: flex;
@@ -113,9 +104,9 @@ em strong {
 .parrafo-ambientaciones {
     margin: 20px;
     text-align: center;
-}
+} */
 
-.incluye {
+/* .incluye {
     color: #FCDDF2;
     font-family: "Akaya Kanadaka", system-ui;
     font-weight: 400;
@@ -133,16 +124,13 @@ em strong {
     color: #FCDDF2;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+} */
 
-.img-ambientaciones {
-    width: 50%;
-    height: 50%;
-}
+
 
 /*Estilos Quienes Somos*/
-
-.titulo-quienes-somos {
+/* 
+h1{
     margin-top: 15px;
     color: #FCDDF2;
     display: flex;
@@ -153,30 +141,30 @@ em strong {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-}
+} */
 
-.flex-img {
+/* .flex-img {
     display: grid;
     grid-template-columns: 1fr;
     padding: 10px;
     gap: 20px;
-}
+} */
 
-.flex-img div img {
+/* .flex-img div img {
     width: 300px;
     height: 300px;
 
-}
+} */
 
-.img-quienes-somos1 {
+/* .img-quienes-somos1 {
     border: 5px outset #f7bff298;
 }
 
 .img-quienes-somos2 {
     border-radius: 300px;
     border: 5px inset #f7bff298;
-}
-
+} */
+/* 
 .parrafo-quienes-somos {
     color: #FCDDF2;
     display: flex;
@@ -184,16 +172,16 @@ em strong {
     flex-wrap: wrap;
     text-align: center;
     padding: 20px;
-}
+} */
 
-.parrafo-quienes-somos p strong {
+/* .parrafo-quienes-somos p strong {
     text-decoration: underline;
     font-style: italic;
-}
+} */
 
 /*Estilos Galeria*/
 
-.titulo-galeria {
+/* h1{
     margin-top: 15px;
     color: #FCDDF2;
     display: flex;
@@ -205,25 +193,25 @@ em strong {
     font-style: normal;
     text-align: center;
     padding: 10px;
-}
+} */
 
-.galeria {
+/* .galeria {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: repeat(5, 200px);
     margin: 1rem 4rem 4rem 4rem;
     gap: 1rem;
-}
+} */
 
-.galeria div img {
+/* .galeria div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 /*Estilos Contaco*/
 
-.titulo-contacto {
+/* h1 {
     margin-top: 15px;
     color: #FCDDF2;
     display: flex;
@@ -234,17 +222,17 @@ em strong {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-}
+} */
 
-.parrafo-contacto {
+/* .parrafo-contacto {
     color: #FCDDF2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-}
+} */
 
-.titulo-formulario {
+/* .titulo-formulario {
     margin: 20px;
     color: #FCDDF2;
     display: flex;
@@ -255,8 +243,8 @@ em strong {
     font-style: normal;
     font-size: xx-large;
     text-decoration: underline;
-}
-
+} */
+/* 
 .form-section {
     width: 30vw;
     display: flex;
@@ -267,9 +255,9 @@ em strong {
     margin: 20px;
     background-color: #bfd9f798;
     width: 280px;
-}
+} */
 
-.form-contacto {
+/* .form-contacto {
     position: relative;
     margin-bottom: 10px;
 }
@@ -281,11 +269,11 @@ em strong {
     padding: 5px 20px;
     border-radius: 5px;
     outline: none;
-}
+} */
 
 /*Estilos Footer*/
 
-.footer {
+/* .footer {
     background-color: #ece7caf8;
     color: rgb(8, 8, 8);
     display: flex;
@@ -293,15 +281,15 @@ em strong {
     flex-wrap: wrap;
     padding: 1rem;
     height: 180px;
-}
+}   */
 
-.footer div img{
+/* .footer div img{
     width: 80px;
     height: 80px;
     margin-left: 100px;
-}
+} */
 
-.parrafo-footer{
+/* .parrafo-footer{
     color: #030923af;
     font-weight: 200px;
     font-size: small;
@@ -310,9 +298,10 @@ em strong {
     flex-wrap: wrap;
     margin-left: 60px;
     margin-top: 10px;
-}
+}  */
 
-.img-instagram{
+
+/* .img-instagram{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -321,22 +310,26 @@ em strong {
     max-height: 50px;
     bottom: 10px;
     left: 20px;
-}
+} */
 
-
-
+/* .logo-Whatsapp img {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}  */
 
 
 
 /*Media queries*/
 /*Mobile 320px y 768px*/
-@media screen and (min-width: 320px) {}
+/* @media screen and (min-width: 320px) {}
 
 /*Tablet 768px y 1024px*/
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {  */
 
     /*Home*/
-    .titulo-principal {
+    /* h1 {
         padding: 20px;
         font-size: xx-large;
     }
@@ -344,77 +337,79 @@ em strong {
     .grid-img-index {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
-    .parrafo-main {
+    /* .parrafo-main {
         padding: 20px;
         background-color: #fc4ac156;
         margin: 20px;
-    }
+    } */
 
     /*Ambientaciones*/
-    .contenedor-ambientaciones {
+    /* .contenedor-ambientaciones {
         font-size: large;
         padding: 20px;
-    }
+    } */
 
-    .parrafo-ambientaciones {
+
+    /* .parrafo-ambientaciones {
         text-align: center;
-    }
+    } */
 
-    .lista-incluye {
+    /* .lista-incluye {
         margin-left: 30px;
         padding: 20px;
         font-size: large;
-    }
+    } */
 
-    .galeria {
+    /*Galeria*/
+    /* .galeria {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 200px);
         grid-template-areas:
             "img1 img2"
             "img3 img4"
             "img3 img5";
-    }
-
+    } */
+/* 
     .img-3 {
         grid-area: img3;
-    }
+    } */
 
     /*Quienes Somos*/
-    .flex-img {
+    /* .flex-img {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
-    }
+    } */
 
-    .flex-img div img {
+    /* .flex-img div img {
         width: 350px;
         height: 350px;
-    }
+    } */
 
-    .parrafo-quienes-somos {
+    /* .parrafo-quienes-somos {
         text-align: center;
-    }
+    } */
 
     /*Contacto*/
-    .parrafo-contacto {
+    /* .parrafo-contacto {
         position: absolute;
         left: 400px;
         top: 400px;
         width: 300px;
         font-size: x-large;
-    }
+    } */
 
     /*Footer*/
-    .footer div img{
+    /* .footer div img{
         margin-left: 360px;
-    }
-    .parrafo-footer{
+    } */
+    /* .parrafo-footer{
         position: absolute;
         margin-left: 310px;
         margin-top: 90px;
-    }
-    .img-instagram{
+    } */
+    /* .img-instagram{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -422,21 +417,27 @@ em strong {
         max-width: 50px;
         max-height: 50px;
         top: 20px;
-    }
+    } */
     
-}
+
 
 /*Desktop 1024px y 1200px*/
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) { */
 
     /*Home*/
+    /* h1 {
+        font-size: xx-large;
+        padding: 20px;
+        margin: 40px;
+    } */
+/* 
     .grid-img-index {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 350px);
         gap: 1rem;
         margin-top: 2rem;
-    }
-
+    } */
+/* 
     .parrafo-main {
         font-size: x-large;
         position: relative;
@@ -444,43 +445,39 @@ em strong {
         bottom: 300px;
         height: 250px;
         width: 450px;
-    }
+    } */
 
-    .titulo-principal {
-        font-size: xx-large;
-        padding: 20px;
-        margin: 40px;
-    }
+
 
     /*Ambientaciones*/
-    .contenedor-ambientaciones {
+    /* .contenedor-ambientaciones {
         font-size: x-large;
-    }
+    } */
 
-    .lista-incluye {
+    /* .lista-incluye {
         font-size: x-large;
-    }
+    } */
 
     /*Quienes Somos*/
-    .parrafo-quienes-somos {
+    /* .parrafo-quienes-somos {
         font-size: x-large;
         text-align: center;
         padding: 30px;
-    }
+    } */
 
-    .flex-img {
+    /* .flex-img {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 6rem;
         margin-bottom: 2rem;
-    }
+    } */
 
-    .flex-img div img {
+    /* .flex-img div img {
         width: 400px;
         height: 400px;
-    }
+    } */
 
     /*Galeria*/
-    .galeria {
+    /* .galeria {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 350px);
         grid-template-areas:
@@ -490,40 +487,39 @@ em strong {
 
     .img-5 {
         grid-area: img5;
-    }
+    } */
 
     /*Contacto*/
-    .parrafo-contacto {
+    /* .parrafo-contacto {
         background-color: #fc4ac156;
         width: 500px;
         left: 470px;
         top: 450px;
-    }
+    } */
 
-    .form-section {
+    /* .form-section {
         width: 400px;
-    }
+    } */
 
-    .form-contacto input {
+    /* .form-contacto input {
         height: 50px;
         width: 350px;
-    }
+    } */
 
-    .form-contacto textarea {
+    /* .form-contacto textarea {
         width: 350px;
-    }
+    } */
 
-    /*Footer*/
         /*Footer*/
-        .footer div img{
+        /* .footer div img{
             margin-left: 500px;
-        }
-        .parrafo-footer{
+        } */
+        /* .parrafo-footer{
             font-size:medium;
-            margin-left: 430px;
-        }
-        .img-instagram{
+            margin-left: 435px;
+            margin-top:90px;
+        } */
+        /* .img-instagram{
             margin-right: 550px;
             margin-top: 10px;
-        }
-}
+        } */
