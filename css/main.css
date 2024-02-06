@@ -216,7 +216,6 @@ header div .navbar-nav {
   text-decoration: underline;
 }
 .main-contacto .form-section {
-  width: 30vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
