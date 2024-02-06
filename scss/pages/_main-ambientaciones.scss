@@ -3,6 +3,7 @@
         color: $color-principal;
         margin-top: 20px;
         @include flex(row, wrap);
+        
         .parrafo-ambientaciones {
             margin: 20px;
             text-align: center;
@@ -15,7 +16,7 @@
         font-style: normal;
         text-decoration: underline;
         font-size: xx-large;
-        @include flex(row,wrap);
+        @include flex(row, wrap);
         justify-content: center;
         padding: 20px;
     }

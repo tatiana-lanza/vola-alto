@@ -5,17 +5,15 @@ html {
     font-style: italic;
     body {
         background-color: #735B69;
-    }   
-    h1{
+    }
+    h1 {
         margin-top: 15px;
         color: $color-principal;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, wrap);
         justify-content: center;
         font-family: "Akaya Kanadaka", system-ui;
         font-weight: 400;
         font-style: normal;
         text-align: center;
-    } 
+    }
 }
