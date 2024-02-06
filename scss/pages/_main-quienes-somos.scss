@@ -1,9 +1,7 @@
 .main-quienes-somos {
     .parrafo-quienes-somos {
         color: $color-principal;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, wrap);
         text-align: center;
         padding: 20px;
         p {
