@@ -18,26 +18,22 @@
         margin: 1rem;
         div {
             img {
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
             }
         }
         div {
             img {
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
             }
         }
         div {
             img {
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
             }
         }
         div {
             img {
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
             }
         }
     }

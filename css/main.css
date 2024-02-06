@@ -27,6 +27,11 @@ html h1 {
   text-align: center;
 }
 
+.main-galeria .galeria div img, .main-index .grid-img-index div img {
+  width: 100%;
+  height: 100%;
+}
+
 header .barra-menu {
   background-color: rgba(254, 225, 159, 0.9176470588);
 }
@@ -62,22 +67,6 @@ header div .navbar-nav {
   grid-template-columns: 1fr;
   gap: 2rem;
   margin: 1rem;
-}
-.main-index .grid-img-index div img {
-  width: 100%;
-  height: 100%;
-}
-.main-index .grid-img-index div img {
-  width: 100%;
-  height: 100%;
-}
-.main-index .grid-img-index div img {
-  width: 100%;
-  height: 100%;
-}
-.main-index .grid-img-index div img {
-  width: 100%;
-  height: 100%;
 }
 .main-index .parrafo-main {
   display: flex;
@@ -132,32 +121,22 @@ header div .navbar-nav {
   gap: 1rem;
 }
 .main-galeria .galeria div img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .main-galeria .galeria div img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .main-galeria .galeria div img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .main-galeria .galeria div img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .main-galeria .galeria div img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }

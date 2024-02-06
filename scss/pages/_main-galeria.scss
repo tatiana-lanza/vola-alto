@@ -10,36 +10,31 @@
         gap: 1rem;
         div{
             img{
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
                 object-fit: cover;
             }
         }
         div{
             img{
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
                 object-fit: cover;
             }
         }
         div{
             img{
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
                 object-fit: cover;
             }
         }
         div{
             img{
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
                 object-fit: cover;
             }
         }
         div{
             img{
-                width: 100%;
-                height: 100%;
+                @extend %medidas;
                 object-fit: cover;
             }
         }
