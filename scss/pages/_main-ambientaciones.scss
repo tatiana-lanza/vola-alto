@@ -2,13 +2,16 @@
     .contenedor-ambientaciones {
         color: $color-principal;
         margin-top: 20px;
-        @include flex(row, wrap);
-        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
         .parrafo-ambientaciones {
             margin: 20px;
             text-align: center;
         }
     }
+
     .incluye {
         color: $color-principal;
         font-family: "Akaya Kanadaka", system-ui;
@@ -16,7 +19,9 @@
         font-style: normal;
         text-decoration: underline;
         font-size: xx-large;
-        @include flex(row, wrap);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         padding: 20px;
     }

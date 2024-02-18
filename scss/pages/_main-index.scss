@@ -7,26 +7,32 @@
         div {
             img {
                 @extend %medidas;
+                box-shadow: 7px 9px 7px 0px rgba(227,225,225,0.43);
             }
         }
         div {
             img {
                 @extend %medidas;
+                box-shadow: 7px 9px 7px 0px rgba(227,225,225,0.43);
             }
         }
         div {
             img {
                 @extend %medidas;
+                box-shadow: 7px 9px 7px 0px rgba(227,225,225,0.43);
             }
         }
         div {
             img {
                 @extend %medidas;
+                box-shadow: 7px 9px 7px 0px rgba(227,225,225,0.43);
             }
         }
     }
     .parrafo-main {
-        @include flex(row, wrap);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
         font-size: medium;
         color: $color-principal;

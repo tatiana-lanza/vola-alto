@@ -1,5 +1,5 @@
 /*Tablet 768px y 1024px*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     /*Home*/
     .main-index{
         h1{
@@ -75,32 +75,29 @@
     /*Footer*/
     footer{
         .footer{
+            flex-wrap: nowrap;
             div{
                 img{
-                    margin-left: 360px;
+                    margin-left: 350px;
                 }
             }
         }
         .parrafo-footer{
-            position: absolute;
-            margin-left: 310px;
-            margin-top: 500px;
+            position: relative;
+            justify-content: center;
+            align-items: center;
         }
         div{
             a{
                 .img-instagram{
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    position: relative;
                     max-width: 50px;
                     max-height: 50px;
-                    top: 20px;
                 }
             }
         }
     }
 }
+
 /*Desktop 1024px y 1200px*/
 @media screen and (min-width: 1024px){
     /*Home*/
@@ -192,19 +189,23 @@
         .footer{
             div{
                 img{
-                    margin-left: 500px;
+                    flex-direction: row;
+                    position: absolute;
+                    right: 800px;
+                    height: 130px;
                 }
             }
             .parrafo-footer{
                 font-size:medium;
-                margin-left: 435px;
-                margin-top: 90px;
+                margin-left: 60px;
+                margin-top: 30px;
             }
             div{
                 a{
                     .img-instagram{
-                        margin-right: 550px;
-                        margin-top: 10px;
+                        max-width: 70px;
+                        max-height: 70px;
+                        margin-left: 480px;
                     }
                 }
             }

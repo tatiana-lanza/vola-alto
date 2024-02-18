@@ -12,11 +12,11 @@ html {
   font-style: italic;
 }
 html body {
-  background-color: #735B69;
+  background-color: #68226D;
 }
 html h1 {
   margin-top: 15px;
-  color: #FCDDF2;
+  color: #FAF193;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -33,7 +33,7 @@ html h1 {
 }
 
 header .barra-menu {
-  background-color: rgba(254, 225, 159, 0.9176470588);
+  background-color: rgba(236, 231, 202, 0.9725490196);
 }
 header div a .logo-vola {
   width: 130px;
@@ -50,23 +50,23 @@ header div .navbar-nav {
   font-style: italic;
 }
 
-.main-index h1 {
-  margin-top: 15px;
-  color: #FCDDF2;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: "Akaya Kanadaka", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-}
 .main-index .grid-img-index {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   margin: 1rem;
+}
+.main-index .grid-img-index div img {
+  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+}
+.main-index .grid-img-index div img {
+  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+}
+.main-index .grid-img-index div img {
+  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+}
+.main-index .grid-img-index div img {
+  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
 }
 .main-index .parrafo-main {
   display: flex;
@@ -74,14 +74,14 @@ header div .navbar-nav {
   flex-wrap: wrap;
   text-align: center;
   font-size: medium;
-  color: #FCDDF2;
+  color: #FAF193;
 }
 .main-index .parrafo-main p em strong {
   text-decoration: underline;
 }
 
 .main-ambientaciones .contenedor-ambientaciones {
-  color: #FCDDF2;
+  color: #FAF193;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -92,7 +92,7 @@ header div .navbar-nav {
   text-align: center;
 }
 .main-ambientaciones .incluye {
-  color: #FCDDF2;
+  color: #FAF193;
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -105,7 +105,7 @@ header div .navbar-nav {
   padding: 20px;
 }
 .main-ambientaciones .lista-incluye {
-  color: #FCDDF2;
+  color: #FAF193;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -142,7 +142,7 @@ header div .navbar-nav {
 }
 
 .main-quienes-somos .parrafo-quienes-somos {
-  color: #FCDDF2;
+  color: #FAF193;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -176,7 +176,7 @@ header div .navbar-nav {
 }
 
 .main-contacto .parrafo-contacto {
-  color: #FCDDF2;
+  color: #FAF193;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -184,7 +184,7 @@ header div .navbar-nav {
 }
 .main-contacto .titulo-formulario {
   margin: 20px;
-  color: #FCDDF2;
+  color: #FAF193;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -257,15 +257,14 @@ footer .footer {
   background-color: rgba(236, 231, 202, 0.9725490196);
   color: rgb(8, 8, 8);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 1rem;
   height: 180px;
 }
 footer .footer div img {
-  width: 80px;
   height: 80px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 footer .footer .parrafo-footer {
   color: rgba(3, 9, 35, 0.6862745098);
@@ -273,19 +272,18 @@ footer .footer .parrafo-footer {
   font-size: small;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 60px;
+  align-content: center;
+  justify-content: center;
+  margin-left: 30px;
   margin-top: 10px;
 }
 footer .footer div a .img-instagram {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  max-width: 50px;
-  max-height: 50px;
-  bottom: 10px;
-  left: 20px;
+  flex-direction: column;
+  position: absolute;
+  max-width: 40px;
+  max-height: 40px;
+  left: 30px;
 }
 footer .logo-Whatsapp img {
   width: 50px;
@@ -353,22 +351,20 @@ footer .logo-Whatsapp img {
     font-size: x-large;
   }
   /*Footer*/
+  footer .footer {
+    flex-wrap: nowrap;
+  }
   footer .footer div img {
-    margin-left: 360px;
+    margin-left: 350px;
   }
   footer .parrafo-footer {
-    position: absolute;
-    margin-left: 310px;
-    margin-top: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
   }
   footer div a .img-instagram {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
     max-width: 50px;
     max-height: 50px;
-    top: 20px;
   }
 }
 /*Desktop 1024px y 1200px*/
@@ -443,15 +439,19 @@ footer .logo-Whatsapp img {
   }
   /*Footer*/
   footer .footer div img {
-    margin-left: 500px;
+    flex-direction: row;
+    position: absolute;
+    right: 800px;
+    height: 130px;
   }
   footer .footer .parrafo-footer {
     font-size: medium;
-    margin-left: 435px;
-    margin-top: 90px;
+    margin-left: 60px;
+    margin-top: 30px;
   }
   footer .footer div a .img-instagram {
-    margin-right: 550px;
-    margin-top: 10px;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 480px;
   }
 }/*# sourceMappingURL=main.css.map */
