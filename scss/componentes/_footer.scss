@@ -1,48 +1,36 @@
 footer{
     .footer {
-        background-color: #ece7caf8;
-        color: rgb(8, 8, 8);
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 1rem;
-        height: 180px;
-        div{
-            img{
-                height: 80px;
-                margin-left: 120px;
-            }
-        }
+        background-color: #ece7caf8;
+        padding: 20px;
+        align-items: center;
         .parrafo-footer{
-            color: #030923af;
-            font-weight: 200px;
-            font-size: small;
-            display: flex;
-            flex-direction: row;
-            align-content: center;
-            justify-content: center;
-            margin-left: 30px;
-            margin-top: 10px;
+            color: rgb(131, 21, 125);
+            font-weight:bold;
+            p{
+                margin: 0;
+                margin-top: 20px;
+                font-size: 12px;
+                font-style: italic;
+                margin-bottom: 20px;
+            }
         } 
         div{
             a{
                 .img-instagram{
-                    display: flex;
-                    flex-direction: column;
-                    position: absolute;
-                    max-width: 40px;
-                    max-height: 40px;
-                    left: 30px;
+                    max-width: 80%;
+                    height: auto;  
+                    margin-left: 5px;
                 }
             }
         }
         }
-        .logo-Whatsapp{
-        img{
+        .logo-Whatsapp {
+        img {
             width: 50px;
             position: fixed;
             bottom: 20px;
-            right: 20px;
+            right: 5px;
         }
     } 
     } 

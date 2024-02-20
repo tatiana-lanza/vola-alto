@@ -1,119 +1,114 @@
 /*Tablet 768px y 1024px*/
 @media screen and (min-width: 768px) {
+
     /*Home*/
-    .main-index{
-        h1{
+    .main-index {
+        h1 {
             padding: 20px;
             font-size: xx-large;
         }
-    .grid-img-index{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .parrafo-main{
-        padding: 20px;
-        background-color: #fc4ac156;
-        margin: 20px;
-    }
+        .grid-img-index {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .parrafo-main {
+            padding: 20px;
+            background-color: #fc4ac156;
+            margin: 20px;
+        }
     }
     /*Ambientaciones*/
-    .main-ambientaciones{
-        .contenedor-ambientaciones{
-            font-size: large;
-            padding: 20px;
-            .parrafo-ambientaciones{
+    .main-ambientaciones {
+            .parrafo-ambientaciones {
                 text-align: center;
             }
-        }
-        .lista-incluye{
+        .lista-incluye {
             margin-left: 30px;
             padding: 20px;
             font-size: large;
         }
-        
     }
-    /*Galeria*/
-    .main-galeria{
-        .galeria{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 200px);
-            grid-template-areas:
-                "img1 img2"
-                "img3 img4"
-                "img3 img5";
-                .img-3{
-                    grid-area: img3;
-                }
+}
+
+/*Galeria*/
+.main-galeria {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas:
+            "img1 img2"
+            "img3 img4"
+            "img3 img5";
+        .img-3 {
+            grid-area: img3;
         }
     }
-    /*Quienes Somos*/
-    .main-quienes-somos{
-        .parrafo-quienes-somos{
-            text-align: center;
-        }
-        .flex-img{
-            grid-template-columns: repeat(2, 1fr);
-            padding: 20px;
-            div{
-                img{
-                    width: 350px;
-                    height: 350px;
-                }
+}
+
+/*Quienes Somos*/
+.main-quienes-somos {
+    .parrafo-quienes-somos {
+        text-align: center;
+    }
+    .flex-img {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        div {
+            img {
+                width: 350px;
+                height: 350px;
             }
         }
     }
-    /*Contacto*/
-    .main-contacto{
-        .parrafo-contacto{
-            position: absolute;
-            left: 400px;
-            top: 400px;
-            width: 300px;
-            font-size: x-large;
-        }
+}
+
+/*Contacto*/
+.main-contacto {
+    .parrafo-contacto {
+        position: absolute;
+        left: 400px;
+        top: 400px;
+        width: 300px;
+        font-size: x-large;
     }
-    /*Footer*/
-    footer{
-        .footer{
-            flex-wrap: nowrap;
-            div{
-                img{
-                    margin-left: 350px;
-                }
-            }
-        }
-        .parrafo-footer{
-            position: relative;
-            justify-content: center;
-            align-items: center;
-        }
-        div{
-            a{
-                .img-instagram{
-                    max-width: 50px;
-                    max-height: 50px;
-                }
+}
+
+/*Footer*/
+footer {
+    .footer{
+        flex-direction: column;
+    }
+    .parrafo-footer {
+        align-items: center;
+        bottom: 80px;
+    }
+    div {
+        a {
+            .img-instagram {
+                max-width: 50px;
+                max-height: 50px;
             }
         }
     }
 }
 
 /*Desktop 1024px y 1200px*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
+
     /*Home*/
-    .main-index{
-        h1{
+    .main-index {
+        h1 {
             font-size: xx-large;
             padding: 20px;
             margin: 40px;
         }
-        .grid-img-index{
+        .grid-img-index {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 350px);
             gap: 1rem;
             margin-top: 2rem;
         }
-        .parrafo-main{
+        .parrafo-main {
             font-size: x-large;
             position: relative;
             left: 430px;
@@ -123,40 +118,69 @@
         }
     }
     /*Ambientaciones*/
-    .main-ambientaciones{
-        .contenedor-ambientaciones{
+    .main-ambientaciones {
+        .contenedor-card{
+            justify-content: space-between;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .parrafo-ambientaciones{
             font-size: x-large;
         }
-        .lista-incluye{
+        .parrafo-ambientaciones-1{
+            display: flex;
+            position: relative;
+            left: 320px;
+            bottom: 270px;
+            font-size: x-large;
+            em{
+                strong{
+                    display: flex;
+                    position: relative;
+                    right: 300px;
+                    top: 130px;
+                    background-color: black;
+                    width: 300px;
+                    font-size: xx-large;
+                    justify-content: center;
+                }
+            }
+        }
+        .parrafo-ambientaciones-2{
+            display: flex;
+            position: relative;
+            bottom: 60px;
+        }
+        .lista-incluye {
             font-size: x-large;
         }
     }
     /*Galeria*/
-    .main-galeria{
-        .galeria{
+    .main-galeria {
+        .galeria {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 350px);
             grid-template-areas:
                 "img1 img5 img2"
                 "img4 img5 img3";
-                .img-5{
-                    grid-area: img5;
-                }
+            .img-5 {
+                grid-area: img5;
+            }
         }
     }
     /*Quienes Somos*/
-    .main-quienes-somos{
-        .parrafo-quienes-somos{
+    .main-quienes-somos {
+        .parrafo-quienes-somos {
             font-size: x-large;
             text-align: center;
             padding: 30px;
         }
-        .flex-img{
+        .flex-img {
             grid-template-columns: repeat(2, 1fr);
             margin-left: 6rem;
             margin-bottom: 2rem;
-            div{
-                img{
+            div {
+                img {
                     width: 400px;
                     height: 400px;
                 }
@@ -164,45 +188,31 @@
         }
     }
     /*Contacto*/
-    .main-contacto{
-        .parrafo-contacto{
+    .main-contacto {
+        .parrafo-contacto {
             background-color: #fc4ac156;
             width: 500px;
             left: 470px;
             top: 450px;
         }
-        .form-section{
+        .form-section {
             width: 400px;
-            .form-contacto{
-                input{
+            .form-contacto {
+                input {
                     height: 50px;
                     width: 350px;
                 }
-                textarea{
+                textarea {
                     width: 350px;
                 }
             }
         }
     }
     /*Footer*/
-    footer{
-        .footer{
-            div{
-                img{
-                    flex-direction: row;
-                    position: absolute;
-                    right: 800px;
-                    height: 130px;
-                }
-            }
-            .parrafo-footer{
-                font-size:medium;
-                margin-left: 60px;
-                margin-top: 30px;
-            }
-            div{
-                a{
-                    .img-instagram{
+    footer {
+            div {
+                a {
+                    .img-instagram {
                         max-width: 70px;
                         max-height: 70px;
                         margin-left: 480px;
@@ -210,7 +220,4 @@
                 }
             }
         }
-        
     }
-}
-
