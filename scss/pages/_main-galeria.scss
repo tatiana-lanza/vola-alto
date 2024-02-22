@@ -2,10 +2,10 @@
     h1{
         padding: 10px;
     }
-    .galeria{
+    .galeria {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: repeat(5, 200px);
+        grid-template-rows: repeat(5,200px);
         margin: 1rem 4rem 4rem 4rem;
         gap: 1rem;
         div{

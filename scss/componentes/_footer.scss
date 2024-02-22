@@ -1,6 +1,7 @@
 footer{
     .footer {
         display: flex;
+        flex-direction: column;
         background-color: #ece7caf8;
         padding: 20px;
         align-items: center;
@@ -9,18 +10,17 @@ footer{
             font-weight:bold;
             p{
                 margin: 0;
-                margin-top: 20px;
                 font-size: 12px;
                 font-style: italic;
-                margin-bottom: 20px;
             }
         } 
         div{
             a{
                 .img-instagram{
-                    max-width: 80%;
+                    max-width: 15%;
                     height: auto;  
-                    margin-left: 5px;
+                    margin-left: 118px;
+                    margin-top: 5px;
                 }
             }
         }

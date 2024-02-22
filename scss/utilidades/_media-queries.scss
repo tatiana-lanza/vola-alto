@@ -1,6 +1,5 @@
 /*Tablet 768px y 1024px*/
 @media screen and (min-width: 768px) {
-
     /*Home*/
     .main-index {
         h1 {
@@ -19,74 +18,70 @@
     }
     /*Ambientaciones*/
     .main-ambientaciones {
-            .parrafo-ambientaciones {
-                text-align: center;
-            }
+        .parrafo-ambientaciones {
+            text-align: center;
+        }
         .lista-incluye {
             margin-left: 30px;
             padding: 20px;
             font-size: large;
         }
     }
-}
-
-/*Galeria*/
-.main-galeria {
-    .galeria {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 200px);
-        grid-template-areas:
-            "img1 img2"
-            "img3 img4"
-            "img3 img5";
-        .img-3 {
-            grid-area: img3;
-        }
-    }
-}
-
-/*Quienes Somos*/
-.main-quienes-somos {
-    .parrafo-quienes-somos {
-        text-align: center;
-    }
-    .flex-img {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
-        div {
-            img {
-                width: 350px;
-                height: 350px;
+    /*Galeria*/
+    .main-galeria {
+        .galeria {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            grid-template-areas:
+                "img1 img2"
+                "img3 img4"
+                "img3 img5";
+            .img-3 {
+                grid-area: img3;
             }
         }
     }
-}
-
-/*Contacto*/
-.main-contacto {
-    .parrafo-contacto {
-        position: absolute;
-        left: 400px;
-        top: 400px;
-        width: 300px;
-        font-size: x-large;
+    /*Quienes Somos*/
+    .main-quienes-somos {
+        .parrafo-quienes-somos {
+            text-align: center;
+        }
+        .flex-img {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 20px;
+            div {
+                img {
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+        }
     }
-}
-
-/*Footer*/
-footer {
-    .footer{
-        flex-direction: column;
+    /*Contacto*/
+    .main-contacto {
+        .parrafo-contacto {
+            position: absolute;
+            left: 400px;
+            top: 400px;
+            width: 300px;
+            font-size: x-large;
+        }
     }
-    .parrafo-footer {
-        align-items: center;
-        bottom: 80px;
-    }
-    div {
-        a {
-            .img-instagram {
-                max-width: 50px;
-                max-height: 50px;
+    /*Footer*/
+    footer {
+        .footer {
+            flex-direction: column;
+        }
+        .parrafo-footer {
+            align-items: center;
+            bottom: 80px;
+        }
+        div {
+            a {
+                .img-instagram {
+                    max-width: 170px;
+                    max-height: 170px;
+                }
             }
         }
     }
@@ -94,7 +89,6 @@ footer {
 
 /*Desktop 1024px y 1200px*/
 @media screen and (min-width: 1024px) {
-
     /*Home*/
     .main-index {
         h1 {
@@ -119,22 +113,22 @@ footer {
     }
     /*Ambientaciones*/
     .main-ambientaciones {
-        .contenedor-card{
+        .contenedor-card {
             justify-content: space-between;
             margin-left: 30px;
             margin-right: 30px;
         }
-        .parrafo-ambientaciones{
+        .parrafo-ambientaciones {
             font-size: x-large;
         }
-        .parrafo-ambientaciones-1{
+        .parrafo-ambientaciones-1 {
             display: flex;
             position: relative;
             left: 320px;
             bottom: 270px;
             font-size: x-large;
-            em{
-                strong{
+            em {
+                strong {
                     display: flex;
                     position: relative;
                     right: 300px;
@@ -146,7 +140,7 @@ footer {
                 }
             }
         }
-        .parrafo-ambientaciones-2{
+        .parrafo-ambientaciones-2 {
             display: flex;
             position: relative;
             bottom: 60px;
@@ -210,14 +204,14 @@ footer {
     }
     /*Footer*/
     footer {
-            div {
-                a {
-                    .img-instagram {
-                        max-width: 70px;
-                        max-height: 70px;
-                        margin-left: 480px;
-                    }
+        div {
+            a {
+                .img-instagram {
+                    max-width: 170px;
+                    max-height: 170px;
+                    margin-left: 480px;
                 }
             }
         }
     }
+}
