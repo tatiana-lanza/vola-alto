@@ -33,21 +33,24 @@ html h1 {
 }
 
 header .barra-menu {
-  background-color: rgba(236, 231, 202, 0.9725490196);
+  background-color: #FAF193;
 }
 header div a .logo-vola {
   width: 130px;
   height: 130px;
 }
 header div .boton-menu {
-  background-color: #735B69;
+  background-color: #68226D;
   border: solid;
-  border-color: #030923;
+  border-color: rgb(177, 176, 120);
 }
 header div .navbar-nav {
   font-family: "ABeeZee", sans-serif;
   font-weight: 400;
   font-style: italic;
+}
+header div .navbar-nav li .nav-link {
+  color: #68226D;
 }
 
 .main-index .grid-img-index {
@@ -269,7 +272,7 @@ header div .navbar-nav {
 footer .footer {
   display: flex;
   flex-direction: column;
-  background-color: rgba(236, 231, 202, 0.9725490196);
+  background-color: #FAF193;
   padding: 20px;
   align-items: center;
 }

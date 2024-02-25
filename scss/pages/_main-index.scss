@@ -30,9 +30,7 @@
         }
     }
     .parrafo-main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, wrap);
         text-align: center;
         font-size: medium;
         color: $color-principal;

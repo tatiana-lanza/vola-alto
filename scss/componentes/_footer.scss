@@ -2,7 +2,7 @@ footer{
     .footer {
         display: flex;
         flex-direction: column;
-        background-color: #ece7caf8;
+        background-color: $color-principal;
         padding: 20px;
         align-items: center;
         .parrafo-footer{
