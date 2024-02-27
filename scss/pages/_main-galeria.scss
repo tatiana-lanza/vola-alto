@@ -12,34 +12,9 @@
             img{
                 @extend %medidas;
                 object-fit: cover;
-                
-            }
-        }
-        div{
-            img{
-                @extend %medidas;
-                object-fit: cover;
-                
-            }
-        }
-        div{
-            img{
-                @extend %medidas;
-                object-fit: cover;
-                
-            }
-        }
-        div{
-            img{
-                @extend %medidas;
-                object-fit: cover;
-                
-            }
-        }
-        div{
-            img{
-                @extend %medidas;
-                object-fit: cover;
+                border-color: #c9c384bb;
+                border-style: solid;
+                box-shadow: -3px 3px 26px 0px rgba(255,255,255,0.95);
                 
             }
         }

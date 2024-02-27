@@ -32,6 +32,15 @@ html h1 {
   height: 100%;
 }
 
+.main-contacto .form-section .form-contacto input {
+  height: 40px;
+  width: 230px;
+  border: 2px solid rgba(110, 87, 121, 0.856);
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
 header .barra-menu {
   background-color: #FAF193;
 }
@@ -60,16 +69,16 @@ header div .navbar-nav li .nav-link {
   margin: 1rem;
 }
 .main-index .grid-img-index div img {
-  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+  box-shadow: 13px 14px 11px -9px rgba(255, 255, 255, 0.98);
 }
 .main-index .grid-img-index div img {
-  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+  box-shadow: 13px 14px 11px -9px rgba(255, 255, 255, 0.98);
 }
 .main-index .grid-img-index div img {
-  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+  box-shadow: 13px 14px 11px -9px rgba(255, 255, 255, 0.98);
 }
 .main-index .grid-img-index div img {
-  box-shadow: 7px 9px 7px 0px rgba(227, 225, 225, 0.43);
+  box-shadow: 13px 14px 11px -9px rgba(255, 255, 255, 0.98);
 }
 .main-index .parrafo-main {
   display: flex;
@@ -139,22 +148,9 @@ header div .navbar-nav li .nav-link {
 .main-galeria .galeria div img {
   -o-object-fit: cover;
      object-fit: cover;
-}
-.main-galeria .galeria div img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-galeria .galeria div img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-galeria .galeria div img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-galeria .galeria div img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  border-color: rgba(201, 195, 132, 0.7333333333);
+  border-style: solid;
+  box-shadow: -3px 3px 26px 0px rgba(255, 255, 255, 0.95);
 }
 
 .main-quienes-somos .parrafo-quienes-somos {
@@ -180,7 +176,7 @@ header div .navbar-nav li .nav-link {
   height: 300px;
 }
 .main-quienes-somos .flex-img div .img-quienes-somos1 {
-  border: 5px outset rgba(247, 191, 242, 0.5960784314);
+  border: 5px outset #FAF193;
 }
 .main-quienes-somos .flex-img div img {
   width: 300px;
@@ -188,7 +184,7 @@ header div .navbar-nav li .nav-link {
 }
 .main-quienes-somos .flex-img div .img-quienes-somos2 {
   border-radius: 300px;
-  border: 5px inset rgba(247, 191, 242, 0.5960784314);
+  border: 5px inset #FAF193;
 }
 
 .main-contacto .parrafo-contacto {
@@ -226,7 +222,7 @@ header div .navbar-nav li .nav-link {
 }
 .main-contacto .form-section .form-contacto input {
   height: 40px;
-  width: 250px;
+  width: 230px;
   border: 2px solid rgba(110, 87, 121, 0.856);
   padding: 5px 20px;
   border-radius: 5px;
@@ -236,39 +232,14 @@ header div .navbar-nav li .nav-link {
   position: relative;
   margin-bottom: 10px;
 }
-.main-contacto .form-section .form-contacto input {
-  height: 40px;
-  width: 250px;
-  border: 2px solid rgba(110, 87, 121, 0.856);
-  padding: 5px 20px;
-  border-radius: 5px;
-  outline: none;
+.main-contacto .form-section .form-contacto {
+  position: relative;
+  margin-bottom: 10px;
 }
 .main-contacto .form-section .form-contacto {
   position: relative;
   margin-bottom: 10px;
 }
-.main-contacto .form-section .form-contacto input {
-  height: 40px;
-  width: 250px;
-  border: 2px solid rgba(110, 87, 121, 0.856);
-  padding: 5px 20px;
-  border-radius: 5px;
-  outline: none;
-}
-.main-contacto .form-section .form-contacto {
-  position: relative;
-  margin-bottom: 10px;
-}
-.main-contacto .form-section .form-contacto input {
-  height: 40px;
-  width: 250px;
-  border: 2px solid rgba(110, 87, 121, 0.856);
-  padding: 5px 20px;
-  border-radius: 5px;
-  outline: none;
-}
-
 footer .footer {
   display: flex;
   flex-direction: column;
@@ -408,7 +379,8 @@ footer .logo-Whatsapp img {
     position: relative;
     right: 300px;
     top: 130px;
-    background-color: black;
+    color: #68226D;
+    background-color: #FAF193;
     width: 300px;
     font-size: xx-large;
     justify-content: center;
